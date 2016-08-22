@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:stable
 MAINTAINER Sajid Momin <sajid.momin@gmail.com>
-ADD default.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+COPY ["dx.conf", "/etc/nginx/conf.d/default.conf"]
+EXPOSE 80 443
