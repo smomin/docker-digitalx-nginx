@@ -1,9 +1,12 @@
 #Docker NGINX
 This is a POC and it is not supported by Jahia.
+
 ##Software Dependencies
 * Docker, https://www.docker.com/products/overview
+
 ##Docker Dependencies
 * DigitalX, https://github.com/smomin/docker-digitalx
+
 ##How to Use
 * Build an Image
   * Clone Docker DigitalX NGINX repo
